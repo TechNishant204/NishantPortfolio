@@ -27,7 +27,7 @@ const Projects = () => {
       title: 'BookNest - Online Book Store',
       description: 'A full-stack online bookstore where users can explore, search, and purchase books across various categories with easy navigation and a modern interface.',
       shortDescription: 'Interactive and user-friendly online bookstore.',
-      image: ["book-1.png", "book-2.png", "book-3.png", "book-4.png", "book-5.png"],
+      image: "/book-1.png",
       images: ['/book-1.png','/book-2.png', '/book-3.png', '/book-4.png', '/book-5.png'],
       tech: ['React', 'Node.js', 'MongoDB', 'ExpressJS', 'Tailwind CSS', 'Firebase Authentication'],
       liveUrl: 'https://book-nest-store-frontend.vercel.app/',
