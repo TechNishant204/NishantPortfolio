@@ -24,6 +24,19 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: 'BookNest - Online Book Store',
+      description: 'A full-stack online bookstore where users can explore, search, and purchase books across various categories with easy navigation and a modern interface.',
+      shortDescription: 'Interactive and user-friendly online bookstore.',
+      image: ["book-1.png", "book-2.png", "book-3.png", "book-4.png", "book-5.png"],
+      images: ['book-1.png','/book-2.png', '/book-3.png', '/book-4.png', '/book-5.png'],
+      tech: ['React', 'Node.js', 'MongoDB', 'ExpressJS', 'Tailwind CSS', 'Firebase Authentication'],
+      liveUrl: 'https://book-nest-store-frontend.vercel.app/',
+      githubUrl: 'https://github.com/TechNishant204/BookNest-store-frontend',
+      challenges: 'Implementing secure user authentication and maintaining smooth search and filter performance.',
+      solution: 'Used Firebase for authentication and optimized frontend state management for seamless user experience.',
+    },    
+    {
+      id: 3,
       title: 'Movie-Mania - Movie Search Application',
       description: 'A responsive app to search movies and view details using the OMDb API.',
       shortDescription: 'Movie search app with OMDb API.',
@@ -36,7 +49,7 @@ const Projects = () => {
       solution: 'Used Axios for API and TailwindCSS for layout.',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Brand-Bazaar - E-commerce Platform',
       description: 'A modern e-commerce platform with cart and product browsing.',
       shortDescription: 'E-commerce platform with cart.',
@@ -49,7 +62,7 @@ const Projects = () => {
       solution: 'Used React state and TailwindCSS.',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Income Expense Tracker - Financial Management App',
       description: 'A simple app to track income and expenses using HTML, CSS, and JavaScript.',
       shortDescription: 'Track income and expenses easily.',

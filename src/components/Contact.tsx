@@ -60,13 +60,7 @@ const Contact = () => {
       label: 'Email',
       value: 'softdevnishant24@gmail.com',
       href: 'mailto:softdevnishant24@gmail.com'
-    },
-    {
-      icon: Phone,
-      label: 'Phone',
-      value: '+91 8957665802',
-      href: 'tel:+918957665802'
-    },
+    },    
     {
       icon: MapPin,
       label: 'Location',
@@ -76,8 +70,8 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/TechNishant204/BookNest-store-frontend', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/softdevnishant/', label: 'LinkedIn' },
   ];
 
   return (
