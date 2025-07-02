@@ -148,7 +148,7 @@ const About = () => {
             Contact Me
           </a>
           <a
-            href="https://www.linkedin.com/in/nishantkumar"
+            href="https://www.linkedin.com/in/softdevnishant/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white/20 text-white font-semibold px-5 py-2 rounded-full border border-white/30 hover:bg-white/30 transition"
