@@ -37,6 +37,19 @@ const Projects = () => {
     },    
     {
       id: 3,
+      title: 'MediScript - Doctor Appointment Booking System',
+      description: 'A full-stack doctor appointment booking system that allows users to search for doctors, book appointments, and manage their health records.',
+      shortDescription: 'Interactive and user-friendly online bookstore.',
+      image: "/doc-1.png",
+      images: ['/doc-1.png','/doc-2.png', '/doc-3.png', '/doc-4.png', '/doc-5.png'],
+      tech: ['React', 'Node.js', 'MongoDB', 'ExpressJS', 'Tailwind CSS'],
+      liveUrl: 'https://mediscript-doctor-appointment-app.vercel.app',
+      githubUrl: 'https://github.com/TechNishant204/MediScript--Doctor-Appointment-App',
+      challenges: 'Implementing secure user authentication and maintaining smooth search and filter performance.',
+      solution: 'Used JWT for authentication and optimized frontend state management for seamless user experience.',
+    },    
+    {
+      id: 4,
       title: 'Movie-Mania - Movie Search Application',
       description: 'A responsive app to search movies and view details using the OMDb API.',
       shortDescription: 'Movie search app with OMDb API.',
@@ -49,7 +62,7 @@ const Projects = () => {
       solution: 'Used Axios for API and TailwindCSS for layout.',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Brand-Bazaar - E-commerce Platform',
       description: 'A modern e-commerce platform with cart and product browsing.',
       shortDescription: 'E-commerce platform with cart.',
@@ -62,7 +75,7 @@ const Projects = () => {
       solution: 'Used React state and TailwindCSS.',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Income Expense Tracker - Financial Management App',
       description: 'A simple app to track income and expenses using HTML, CSS, and JavaScript.',
       shortDescription: 'Track income and expenses easily.',
